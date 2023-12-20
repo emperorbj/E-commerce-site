@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Dancing+Script:wght@500&family=Josefin+Sans&family=PT+Sans+Narrow&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,700&family=Roboto&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4{
+    font-size: 16px;
+    color: #222;
+}
+
+h6{
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p{
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1{
+    padding: 40px 80px;
+}
+
+.section-m1{
+    margin: 40px 0;
+}
+
+body{
+    width: 100%;
+}
+
+/* Header  */
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    background: #E3E6F3;
+    box-shadow:0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li .active{
+    color: #1e6d68;
+}
+
+/* adding psuedo class for line under each navigation link */
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+    background: #1e6d68;
+}
+
+/* HOME PAGE */
+#hero{
+    background-image: url("img/hero4.png");
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#hero h1{
+    color: #1e6d68;
+}
+#hero h4{
+    padding-bottom: 16px;
+}
+
+button{
+    padding: 9px 20px;
+    border: 2px solid #3a9e97;
+    background: #3a9e97;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    color: #E3E6F3;
+}
+
+/* FEATURES */
+#features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#features .features-box{
+    width: 180px;
+    text-align: center;
+    padding: 30px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+#features .features-box:hover{
+    transform: scale(1.1);
+}
+
+#features .features-box h6{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    color: #3a9e97;
+    line-height: 1;
+    background-color: #ecd5da;
+    border-radius: 4px;
+}
+#features .features-box img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#features .features-box:nth-child(2) h6{
+    background-color: rgb(51, 248, 189);
+}
+
+#features .features-box:nth-child(3) h6{
+    background-color: rgb(115, 210, 247);
+}
+
+#features .features-box:nth-child(4) h6{
+    background-color: rgb(145, 236, 209);
+}
+
+#features .features-box:nth-child(5) h6{
+    background-color: rgb(168, 247, 115);
+}
+
+/* PRODUCTS SECTION */
+
+#first--products{
+    text-align: center;
+}
+
+#first--products .product{
+    width: 23%;
+    max-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 20px;
+    margin: 15px 0;
+    cursor: pointer;
+    box-shadow: 20px 20px 38px rgba(0, 0, 0, 0.03);
+    transition: 0.2s ease;
+}
+
+#first--products .product:hover{
+    box-shadow: 20px 20px 38px rgba(0, 0, 0, 0.08);
+}
+
+#first--products .product img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+#first--products .product .fas{
+    color: gold;
+    font-size: 12px;
+}
+
+#first--products .product .basket{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background:#e8f6ea;
+    color: #088178;
+    border: 1px solid #cce7d0;
+    border-radius: 50%;
+}
+
+.product--container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
