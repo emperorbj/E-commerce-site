@@ -609,4 +609,13 @@ footer .social--media img:hover{
         padding-right: 0px;
         margin-left:45px;
     }
+      footer .social--media img {
+        margin: 10px 0;
+    }
+
+    footer .box--2 {
+        padding: 20px 30px;
+        margin-top:20px;
+        
+    }
 }
