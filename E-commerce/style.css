@@ -20,7 +20,7 @@ h2{
 
 h4{
     font-size: 16px;
-    color: #222;
+    color: #fff;
 }
 
 h6{
@@ -30,7 +30,7 @@ h6{
 
 p{
     font-size: 16px;
-    color: #465b52;
+    color: #fff;
     margin: 15px 0 20px 0;
 }
 
@@ -50,10 +50,9 @@ body{
 #header{
     display: flex;
     align-items: center;
+    background-color: #e8f6ea;
     justify-content: space-between;
     padding: 10px 80px;
-    background: #E3E6F3;
-    box-shadow:0 5px 15px rgba(0, 0, 0, 0.06);
     z-index: 1000;
     position: sticky;
     top: 0;
@@ -72,6 +71,15 @@ body{
     position: relative;
 }
 
+#cart{
+    width: 20px;
+    height: 20px;
+}
+
+.mobile-menu{
+    display: none;
+    align-items: center;
+}
 #navbar li a{
     text-decoration: none;
     font-size: 16px;
@@ -82,7 +90,7 @@ body{
 
 #navbar li a:hover,
 #navbar li .active{
-    color: #1e6d68;
+    color: #0437F2;
 }
 
 /* adding psuedo class for line under each navigation link */
@@ -94,12 +102,16 @@ body{
     position: absolute;
     bottom: -4px;
     left: 20px;
-    background: #1e6d68;
+    background: #0437F2;
+}
+
+#close{
+    display: none;
 }
 
 /* HOME PAGE */
 #hero{
-    background-image: url("img/hero4.png");
+    background-image: url("img/beautiful-african-american-woman-natural-makeup-wear-fashion-clothes-casual-black-white-dress-code-office-style-total-blouse-pants-suit-hat.jpg");
     background-size: cover;
     height: 90vh;
     width: 100%;
@@ -112,7 +124,7 @@ body{
 }
 
 #hero h1{
-    color: #1e6d68;
+    color: #0437F2;
 }
 #hero h4{
     padding-bottom: 16px;
@@ -120,15 +132,18 @@ body{
 
 button{
     padding: 9px 20px;
-    border: 2px solid #3a9e97;
-    background: #3a9e97;
+    border: 2px solid #0437F2;
+    background: #0437F2;
     border-radius: 10px;
     cursor: pointer;
     font-weight: 700;
     font-size: 15px;
     color: #E3E6F3;
+    
 }
-
+.blue-button{
+    box-shadow: 3px 2px 2px 3px#0437F2;
+}
 /* FEATURES */
 #features{
     display: flex;
@@ -153,9 +168,9 @@ button{
 #features .features-box h6{
     display: inline-block;
     padding: 9px 8px 6px 8px;
-    color: #3a9e97;
+    color: #fff;
     line-height: 1;
-    background-color: #ecd5da;
+    background-color: #3F00FF;
     border-radius: 4px;
 }
 #features .features-box img{
@@ -164,7 +179,7 @@ button{
 }
 
 #features .features-box:nth-child(2) h6{
-    background-color: rgb(51, 248, 189);
+    background-color: #5D3FD3
 }
 
 #features .features-box:nth-child(3) h6{
@@ -172,7 +187,7 @@ button{
 }
 
 #features .features-box:nth-child(4) h6{
-    background-color: rgb(145, 236, 209);
+    background-color: #00A36C;
 }
 
 #features .features-box:nth-child(5) h6{
@@ -205,6 +220,9 @@ button{
     width: 100%;
     border-radius: 10px;
 }
+#first--products h2{
+    color: #0437F2;
+}
 
 #first--products .product .fas{
     color: gold;
@@ -227,7 +245,7 @@ button{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
+/* 
 BANNER SECTION */
 #banner{
     display: flex;
@@ -246,14 +264,19 @@ BANNER SECTION */
     font-weight: 700;
 }
 #banner span{
-    color: rgb(247, 31, 31);
+    color: #FAFA33;
 }
 .btn{
     margin-top: 15px;
-    background-color:#cce7d0;
-    color: #1a1a1a;
+    color: #FFF;
     border: none;
     outline: none;
+}
+
+#banner .discount-btn{
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
 }
 
 /* BANNER PRODUCTS COLLECTION SECTION */
@@ -296,8 +319,8 @@ BANNER SECTION */
 }
 
 #sm-banner .banner--box:hover .btn--banner{
-    background-color: #088178;
-    border: #088178;
+    background-color: #1F51FF;
+    border: #1F51FF;
 }
 
 /* SECOND BANNER PRODUCTS SECTION */
@@ -340,7 +363,7 @@ BANNER SECTION */
 }
 
 #second--banner .lower--box--2{
-    background-image: url("img/banner/b18.jpg");
+    background-image: url("img/portrait-african-woman-wearing-traditional-accessories-posing.jpg");
 }
 
 #second--banner .lower--box--3{
@@ -348,10 +371,9 @@ BANNER SECTION */
 }
 
 #second--banner .lower--box:hover .btn--banner{
-    background-color: #088178;
-    border: #088178;
+    background-color: #1F51FF;
+    border: #1F51FF;
 }
-
 /* 
 NEWSLETTER SECTION */
 #news--letter{
@@ -364,7 +386,7 @@ NEWSLETTER SECTION */
     background-size: cover;
     width: 100%;
     height: 30vh;
-    background-color: #5f4875;
+    background-color: #CCCCFF;
 }
 
 .news--text{
@@ -415,6 +437,7 @@ NEWSLETTER SECTION */
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
 }
+
 /* FOOTER */
 footer{
     display: flex;
@@ -481,6 +504,11 @@ footer .col a:hover{
 footer .social--media img:hover{
     transform: scale(1.1);
 }
+
+
+
+
+
 
 
 
@@ -606,16 +634,19 @@ footer .social--media img:hover{
     }
 
     .sign--up--form {
+        margin-top: -20px;
         padding-right: 0px;
         margin-left:45px;
     }
-      footer .social--media img {
+
+    footer .social--media img {
         margin: 10px 0;
     }
 
     footer .box--2 {
         padding: 20px 30px;
         margin-top:20px;
+        
     }
 }
 
