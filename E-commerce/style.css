@@ -616,6 +616,159 @@ footer .social--media img:hover{
     footer .box--2 {
         padding: 20px 30px;
         margin-top:20px;
-        
+    }
+}
+
+@media (max-width:477px) {
+    #header {
+        padding: 10px 30px;
+    }
+
+    #hero {
+        height: 70vh;
+        background-position: top 10% right 40%;
+        padding: 0 65px;
+        padding-left: 10px;
+        padding-bottom: 50px;
+        padding-top: 40px;
+    }
+
+    button {
+        padding: 9px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 18px;
+        margin-left: 120px;
+    }
+
+    #features {
+    padding-left: 37px;
+    padding-right: 15px;
+    }
+
+    #features .features-box h6 {
+        display: inline-block;
+        padding: 20px 10px 20px 10px;
+        font-size: 17px;
+    }
+    #features .features-box {
+        width: 280px;
+        padding: 30px 35px;
+        margin: 20px 0;
+    }
+
+
+
+    p {
+        font-size: 20px;
+    }
+
+    #first--products {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .product--container {
+        padding-left:10px ;
+        padding-right: 10px;
+    }
+
+    #first--products .product {
+        width: 380px;
+        padding: 10px 15px;
+        margin: 15px 0px;
+    }
+    #banner h4, #banner h2 {
+        font-size: 28px;
+    }
+    .btn {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-right: 95px;
+    }
+
+
+
+    #sm-banner .banner--box {
+        min-width: 340px;
+        padding-left: 20px;
+    }
+    .banner--box h2{
+    font-size: 30px;
+    }
+    #sm-banner .btn--banner {
+        width: 155px;
+        border-radius: 4px;
+        margin-left:-4px;
+    }
+
+
+    #second--banner .lower--box {
+        min-width: 340px;
+        padding-left: 20px;
+    }
+    #second--banner h2{
+        font-size: 30px;
+    }
+    #second--banner .btn--banner {
+        width: 155px;
+        border-radius: 4px;
+        margin-left:-4px;
+    }
+
+
+    #news--letter {
+        padding: 0 20px;
+    }
+    #news--letter p {
+        font-size: 16px;
+        margin-top: -10px;
+    }
+    #news--letter input {
+        height: 3.125rem;
+        padding: 0 1.25rem;
+        font-size: 14px;
+        width: 200px;
+        border-radius: 4px;
+    }
+    #news--letter button {
+        padding: 2px 10px;
+        width: 40%;
+        font-size: 14px;
+        border-radius: 4px;
+        height: 3.125rem;
+        margin-left:-20px;
+    }
+    .sign--up--form {
+        margin-left:-20px
+    }
+
+
+    footer.section-p1 {
+        padding: 20px 20px;
+    }
+    footer h4{
+        font-size: 20px;
+    }
+    footer p{
+        font-size: 18px;
+    }
+    footer .box--2 {
+        margin-left: -25px;
+    }
+    footer .box--2 a{
+        font-size: 18px;
+    }
+    footer .install {
+        margin-left: -25px;
+    }
+    footer .install a {
+        font-size: 18px;
+    }
+    footer .install .app--row {
+        width: 324px;
+    }
+    footer .install .app--row img {
+        width: 142px;
     }
 }
