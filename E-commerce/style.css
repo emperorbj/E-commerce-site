@@ -517,7 +517,32 @@ footer .social--media img:hover{
     justify-content: center;
     text-align: center;
 }
+/* Pagination */
+#pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+#pagination a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    padding: 4px 0;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    background-color: #088178;
+    box-shadow: 1px 1px 1px #088178;
+    margin: 10px;
+    transition: all 0.3s;
+}
+#pagination a:hover{
+    transform: translateY(10px);
+}
 
 
 
