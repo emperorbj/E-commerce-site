@@ -569,6 +569,46 @@ footer .social--media img:hover{
     border-radius: 4px;
 }
 
+#product-details h2,h4,h6,p{
+    color:#1a1a1a;
+
+}
+
+#product-details {
+    display: flex;
+}
+
+#product-details .single-product-details{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 80px;
+}
+#product-details h6{
+    margin-top: -60px;
+    
+}
+
+#product-details select,form{
+    margin-top: 10px
+}
+#product-details h2,h4,h6,p{
+    margin-top: 10px;
+}
+#product-details form{
+    display: flex;
+}
+#product-details form input{
+    width: 15% ;
+    text-align: center;
+}
+#product-details form button{
+    padding: 4px 10px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
 
 
 
