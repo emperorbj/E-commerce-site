@@ -810,10 +810,13 @@ BLOG PAGE */
     .blogs .blog-img {
         width:140%;
     }
+     .blogs .blog-details {
+        padding: 20px 40px 10px 20px;
+    }
 
     #first-blog, #second-blog, #third-blog, #fourth-blog {
         padding-left: 20px;
-        padding-right: 20px;
+        padding-right: 30px;
     }
 
     .blogs a {
