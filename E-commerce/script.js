@@ -16,3 +16,19 @@ if(closeButton){
 
     })
 }
+
+  //JS FOR SINGLE PAGE: clicking to change product images dispalyed//
+    const bigImage = document.getElementById('main-img')
+    const smallImage = document.querySelectorAll('.small-img');
+    
+    smallImage[0].onclick = function(){
+        bigImage.src = smallImage[0].src
+    }
+
+    smallImage[1].onclick = function(){
+        bigImage.src = smallImage[1].src
+    }
+
+    smallImage[2].onclick = function(){
+        bigImage.src = smallImage[2].src
+    }
