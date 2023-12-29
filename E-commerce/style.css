@@ -1013,4 +1013,15 @@ BLOG PAGE */
     #product-details form input {
         border: 1px solid #646480;
     }
+
+    
+    /* BLOG PAGE */
+    #first-blog, #second-blog, #third-blog, #fourth-blog {
+        flex-direction: column;
+    }
+
+    .blogs .blog-details {
+        padding:20px 0 0 0;
+        flex-direction: column;
+    }
 }
