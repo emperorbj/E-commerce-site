@@ -607,6 +607,11 @@ footer .social--media img:hover{
     padding: 4px 10px;
     border-radius: 3px;
     margin-left: 5px;
+    color:#fff
+}
+.single-product-featured{
+    border-top: 1px solid #CCCCFF;
+    margin-bottom: 40px;
 }
 
 
