@@ -799,7 +799,25 @@ BLOG PAGE */
     footer .box--2 {
         padding: 20px 30px;
         margin-top:20px;
-        
+    }
+
+    
+    /* BLOG PAGE */
+    #blog--banner {
+        height: 20vh;
+    }
+
+    .blogs .blog-img {
+        width:140%;
+    }
+
+    #first-blog, #second-blog, #third-blog, #fourth-blog {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .blogs a {
+        width: 35%;
     }
 }
 
