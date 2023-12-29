@@ -544,6 +544,30 @@ footer .social--media img:hover{
     transform: translateY(10px);
 }
 
+/* SINGLE PRODUCT PAGE */
+
+#product-details .single-product-img{
+    width:40%;
+    margin-right: 40px;
+}
+.single-product-img #main-img{
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+}
+#product-details .small-img-bundle{
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#product-details .small-img{
+    margin-bottom: -5px;
+}
+#product-details .small-img-col{
+    flex-basis: 32%;
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+}
 
 
 
