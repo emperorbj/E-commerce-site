@@ -707,6 +707,30 @@ BLOG PAGE */
     flex-direction: column;
 }
 
+.about marquee{
+    margin-top: 10px;
+}
+
+#video h2{
+    color: black;
+}
+
+#video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#video .video{
+    width:70%;
+    margin-top: 20px;
+}
+
+#video .video video{
+    width:100%;
+        border-radius: 10px;
+}
 
 /* MEDIA QUERIES */
 @media (max-width:799px) {
