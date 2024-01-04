@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>my E-commerce site</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="fonticons/css/all.css">
+    </head>
+    <body>
+        <section id="header">
+            <a href="#"><img src="img/logo2.png" class="logo" alt="logo"></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a class="active" href="cart.html" id="cart--hidden" ><img id="cart"  src="img/shopping-cart.png" alt=""></a></li>
+                    <a href="#" id="close"><i class="fas fa-times"></i></a>
+                </ul>
+            </div>
+            <div class="mobile-menu">
+                <i id="bars"  class="fa fa-bars" aria-hidden="true"></i>
+                <a href="cart.html"><img id="cart" src="img/shopping-cart.png" alt=""></a>
+            </div>
+        </section>
+        <!-- home page-->
+        <section id="cart--banner"></section>
+
+        <section id="cart--section" class="section-p1">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Remove</td>
+                        <td>Image</td>
+                        <td>Products</td>
+                        <td>Price</td>
+                        <td>Quantity</td>
+                        <td>Subtotal</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <td><a href="#"><i class="fa fa-trash" aria-hidden="true"></i></a></td>
+                    <td><img src="img/products/n3.jpg" alt=""></td>
+                    <td>Bolaji designer shirt</td>
+                    <td>N2,200</td>
+                    <td><input type="number" value="1"></td>
+                    <td>N2,200</td>
+                </tbody>
+                <tbody>
+                    <td><a href="#"><i class="fa fa-trash" aria-hidden="true"></i></a></td>
+                    <td><img src="img/products/n5.jpg" alt=""></td>
+                    <td>Bolaji designer shirt</td>
+                    <td>N2,200</td>
+                    <td><input type="number" value="1"></td>
+                    <td>N2,300</td>
+                </tbody>
+                <tbody>
+                    <td><a href="#"><i class="fa fa-trash" aria-hidden="true"></i></a></td>
+                    <td><img src="img/products/f3.jpg" alt=""></td>
+                    <td>Bolaji designer shirt</td>
+                    <td>N2,200</td>
+                    <td><input type="number" value="1"></td>
+                    <td>N4,200</td>
+                </tbody>
+                <tbody>
+                    <td><a href="#"><i class="fa fa-trash" aria-hidden="true"></i></a></td>
+                    <td><img src="img/products/f2.jpg" alt=""></td>
+                    <td>Bolaji designer shirt</td>
+                    <td>N2,200</td>
+                    <td><input type="number" value="1"></td>
+                    <td>N3,300</td>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- COUPON SECTION -->
+        <section id="cart--add" class="section-p1">
+            <div id="coupon">
+                <h3>Apply for coupon</h3>
+                <div>
+                    <input class="coupon--input" type="text" placeholder="enter coupon here">
+                    <button class="form-btn button--coupon">Apply</button>
+                </div>
+            </div>
+            <div id="subtotal">
+                <h3>Cart Total</h3>
+                <table>
+                    <tr>
+                        <td>Cart subtotal </td>
+                        <td>N446</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping </td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong>N446</strong></td>
+                    </tr>
+                </table>
+                <button class="form-btn button--coupon">proceed to checkout</button>
+            </div>
+        </section>
+        <footer class="section-p1">
+            <div class="col">
+                <img src="img/logo2.png" alt="">
+                <h4>Contact</h4>
+                <p><strong>Address:</strong> 21,Ayolorun Estate,Bolanle,Osogbo.</p>
+                <p><strong>Phone:</strong> +2348163007964</p>
+                <h4>Follow Us</h4>
+                <div class="social--media">
+                    <a href="#"><img src="img/facebook.png" alt=""></a>
+                    <a href="#"><img src="img/whatsapp.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col box--2">
+                    <h4>About Us</h4>
+                    <a href="#">Privacy and policy</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Contact Us</a>
+            </div>
+            <div class="col install">
+                <h4>Install App</h4>
+                <a href="#">IOS store or Google playstore</a>
+                <div class="app--row">
+                    <img src="img/pay/app.jpg" alt="">
+                    <img src="img/pay/play.jpg" alt="">
+                </div>
+                <p>Payments channels</p>
+                <img src="img/pay/pay.png" alt="">
+            </div>
+
+            <div class="copyright">
+                <p> All rights reserved | my E-commerce site</p>
+            </div>
+        </footer>
+        <script src="script.js" async defer></script>
+    </body>
+</html>
