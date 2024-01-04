@@ -111,11 +111,13 @@ body{
 
 /* HOME PAGE */
 #hero{
-    background-image: url("img/beautiful-african-american-woman-natural-makeup-wear-fashion-clothes-casual-black-white-dress-code-office-style-total-blouse-pants-suit-hat.jpg");
-    background-size: cover;
-    height: 90vh;
+    background-image: url("img/hero-2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: pink;
+    height: 80vh;
     width: 100%;
-    background-position: top 25% right 0;
+    background-position: top 25% left 60%;
     padding: 0 80px;
     display: flex;
     flex-direction: column;
