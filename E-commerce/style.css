@@ -914,6 +914,11 @@ BLOG PAGE */
     #video {
         height: 40vh;
     }
+
+     .my-info {
+    margin-left: 80px;
+    margin-right: -20px;
+    }
 }
 
 @media (max-width:477px) {
@@ -1161,5 +1166,52 @@ BLOG PAGE */
     #video .video {
     width: 100%;
     margin-top: 20px;
+}
+    /* CONTACT PAGE */
+    #form-details {
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 756px;
+}
+
+.my-info {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 30px;
+}
+
+#form-details form {
+    width: 100%;
+    align-items: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+button {
+    padding: 4px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 120px;
+}
+
+#contact-details .details {
+    width: 100%;
+}
+
+#contact-details h3 {
+    margin-left: 50px;
+}
+
+#contact-details span{
+    margin-left: 100px;
+}
+
+#contact-details {
+    padding: 10px 20px;
 }
 }
