@@ -919,6 +919,17 @@ BLOG PAGE */
     margin-left: 80px;
     margin-right: -20px;
     }
+
+    /* 
+    CART PAGE */
+
+    #cart--section {
+        overflow-x: auto;
+    }
+
+    #cart--add .button--coupon {
+        margin-top: 10px;
+    }
 }
 
 @media (max-width:477px) {
@@ -1213,5 +1224,33 @@ button {
 
 #contact-details {
     padding: 10px 20px;
+}
+    /* CART PAGE */
+
+#cart--section{
+    padding: 10px 10px;
+    overflow-x: scroll;
+}
+
+#cart--add {
+    flex-direction: column;
+    padding: 10px 10px;
+}
+
+#coupon {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#cart--add .button--coupon {
+    margin:0;
+}
+
+#subtotal {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cdcde9;
+    border-radius: 5px;
+    margin-top: 30px;
 }
 }
